@@ -1,0 +1,14 @@
+/*Columna auxiliar, para publicidad o noticias relacionadas.*/
+#columnaAux{
+	float: left;
+	border: 2px;
+	padding: 1px;
+	width: 10%;
+	height: 100%;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+#columnaAux a img{
+	width: 30%;
+}

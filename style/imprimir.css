@@ -1,0 +1,105 @@
+/*Imprimir*/
+#cabeceraImprimir{
+	border: 2px solid #4682B4;
+	margin-top: 0.5em;
+	font-family: ubuntu , sans-serif ;
+	font-size: 3em;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	text-align: center;
+}
+/*Configuracion enlaces de la cabecera*/
+#cabeceraImprimir a{
+	text-decoration: none;
+	color: black;
+}
+
+#seccionImprimir{
+	padding: 2px;
+	font-size: 15px;
+	font-family: serif;
+	font-style: oblique;
+	width: 5%;
+	border-bottom: 1px solid #4682B4;
+}
+#cuerpoImprimir{
+	font-size: 20px;
+	font: Verdana;
+	width: 75%;
+	margin: auto;
+}
+#tituloImprimir{
+	padding: 5px;
+	font-weight: bold;
+}
+#subtituloImprimir{
+	padding: 5px;
+	font-size: 15px;
+}
+#subtituloImprimir p{
+	float:left;
+}
+
+/*#subtituloImprimir img{
+	float: right;
+	width: 40%;
+	height: 60%;
+}*/
+
+#entradillaImprimir{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 13px;
+}
+#emisorImprimir{
+	padding: 5px;
+	font-size: 10px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+/*
+#cuerpoNoticiaImprimir{
+	padding: 5px;
+}
+#cuerpoNoticiaImprimir p{
+	font-size: 12px;
+	padding-bottom: 5px;
+}
+*/
+
+/**********/
+#cuerpoNoticiaImprimir{
+	float: left;
+	width: 98%;
+}
+
+#textoNoticia {
+	margin-left: 2px;
+	float: left;
+	width: 98%;
+	font-size: 14px;
+}
+
+#textoNoticia img{
+	float:right;
+	margin: 2px;
+	margin-left: 5px;
+	width: 35%;
+}
+/********/
+
+#olistaImprimir{
+	float: left;
+	margin-top: 5px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#olistaImprimir li{
+	margin-left: 30px;
+	padding-left: 10px;
+	font-weight: normal;
+}

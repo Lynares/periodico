@@ -1,0 +1,84 @@
+/*Configuracion general*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+/*Configuracion del body*/
+body{
+	width: 1000px;
+	margin: auto;
+	margin-top: 5px;
+	overflow: auto;
+
+	font: .74em Tahoma, Verdana, Sans-Serif, Arial;
+	background-color: white;
+}
+
+/*configuracion de la cabecera*/
+#cabecera{
+	border: 2px solid #4682B4;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0.5em;
+	font-family: ubuntu , sans-serif ;
+	font-size: 3em;
+	background-color: white;
+	text-align: center;
+}
+
+/*Configuracion enlaces de la cabecera*/
+#cabecera a{
+	text-decoration: none;
+	color: black;
+}
+
+/*configuracion del menu de secciones*/
+#menu{
+	height: 30px;
+	border: 2px solid black; /*#4169E1;*/
+	background: black; /*#4682B4;*/
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+}
+/*Configuracion lista del menu de secciones*/
+#menu li{
+	display: inline-block;
+	list-style: none;
+	margin: 2px;
+	padding: 5px;
+}
+/*Configuracion enlaces del menu de secciones*/
+#menu a{
+	color: white;
+	text-decoration: none;
+}
+/*Configuracion comportamiento de los enlaces del menu de secciones cuando se le pasa el raton por encima*/
+#menu a:hover{
+	color: white;
+}
+
+/*Configuracion para las distintas secciones del menu de secciones*/
+#depo:hover{
+	border-bottom: 3px solid #008000;
+}
+
+#econ:hover{
+	border-bottom: 3px solid #B22222;
+}
+
+#poli:hover{
+	border-bottom: 3px solid #DAA520;
+}
+
+#loca:hover{
+	border-bottom: 3px solid #4169E1;
+}
+
+#cuerpo{
+	float:left;
+	width: 85%;
+	margin:auto;
+	/*border: 1px blue solid;*/ /*-----------*/
+}

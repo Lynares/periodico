@@ -1,0 +1,62 @@
+/*configuracion distintas secciones de noticias de la portada*/
+.noticia{
+	margin: 5px;
+	border: 1px solid red;
+	border-radius: 4px;
+}
+.noticia div{
+	margin: 5px;
+}
+/* Noticias Izquierda */
+#noticiasIzq{
+	border: 3px;
+	float: left;
+	padding: 5px;
+	width: 40%;
+	margin: auto;
+}
+#noticiasIzq a{
+	text-decoration: none;
+	color: black;
+	font-family: arial;
+}
+#noticiasIzq img{
+	width: 100%;
+	height: 100%;
+}
+
+/* Noticias Central */
+#noticiasCentro{
+	border: 3px;
+	padding: 5px;
+	float: left;
+	width: 30%;
+	margin: auto;
+}
+#noticiasCentro a{
+	text-decoration: none;
+	color: black;
+	font-family: arial;
+}
+#noticiasCentro img{
+	width: 100%;
+	height: 100%;
+}
+
+/*Noticias Derecha*/
+#noticiasDer{
+	border: 3px;
+	padding: 5px;
+	float: left;
+	width: 20%;
+	margin: auto;
+}
+#noticiasDer a{
+	text-decoration: none;
+	color: black;
+	font-family: arial;
+}
+#noticiasDer img{
+	width: 100%;
+	height: 100%;
+}

@@ -1,0 +1,70 @@
+/*CSS noticia*/
+#seccion{
+	padding: 2px;
+	font-size: 18px;
+	font-family: serif;
+	font-style: oblique;
+	width: 6%;
+	border-bottom: 2px solid #4682B4;
+}
+#titulo{
+	padding: 5px;
+	font-size: 24px;
+	font-weight: bold;
+}
+#subtitulo{
+	padding: 5px;
+	font-size: 20px;
+}
+#subtitulo p{
+	float:left;
+}
+/*#subtitulo img{
+	float: right;
+	width: 40%;
+	height: 60%;
+}*/
+#entradilla{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 15px;
+}
+#emisor{
+	padding: 5px;
+	font-style: italic;
+	font-weight: bold;
+}
+/*#cuerpoNoticia{
+	padding: 5px;
+}
+#cuerpoNoticia p{
+	font-size: 15px;
+	padding-bottom: 5px;
+}*/
+
+#textoNoticia {
+	margin-left: 2px;
+	float: left;
+	width: 98%;
+	font-size: 15px;
+}
+
+#textoNoticia img{
+	float:right;
+	margin: 2px;
+	margin-left: 5px;
+	width: 35%;
+}
+
+
+#olista{
+	float: left;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 5px;
+}
+#olista li{
+	margin-left: 30px;
+	padding-left: 5px;
+	font-weight: normal;
+}
