@@ -9,7 +9,64 @@
 	margin-left: 10px;
 }
 
-#columnaAux a img{
+/* Formulario buscar */
+#columnaAux #form_buscar{
+	float: left;
+	width: 100%;
+}
+
+#columnaAux #form_buscar #listaRenueva input{
+	float: left;
+	width: 100%;
+}
+
+#columnaAux #form_buscar #listaRenueva ul{
+	position: absolute;
+	margin-top: 27px;
+	width: 190px;
+	display: none;
+	color: black;
+}
+#columnaAux #form_buscar #listaRenueva ul a:first-child{
+	background-color: black;
+	color: white;
+}
+#columnaAux #form_buscar #listaRenueva ul a:hover{
+	background-color: black;
+	color: white;
+}
+#columnaAux #form_buscar #listaRenueva ul a{
+	text-decoration: none;
+	float: left;
+	width: 100%;
+	color: black;
+	padding: 5px;
+	border-bottom: 1px solid black;
+	background-color: white;
+}
+#columnaAux #form_buscar #listaRenueva ul li{
+  float: left;
+	width: 100%;
+}
+
+#columnaAux #form_buscar #listaRenueva ul li p{
+	margin: 5px;
+}
+
+#columnaAux #form_buscar #listaRenueva>input + ul{
+  display:block;
+}
+
+	/* Remarcar Palabra en noticia */
+b.palabraBusqueda {
+	text-decoration: none;
+	background-color: #D8EDFF;
+}
+	/* FIN - Remarcar Palabra en noticia */
+/* FIN - Formulario buscar */
+
+
+#columnaAux a.redesSociales img{
 	width: 18%;
 	margin: 1px;
 }
@@ -25,7 +82,16 @@
 	width: 100%;
 	float: left;
 	margin: auto;
-	/*border: 1px solid red;*/
+	/* border: 1px solid red; */
+}
+
+#columnaAux #contenedor_columnaAux img{
+	max-width: 80%;
+}
+
+#columnaAux #contenedor_columnaAux p{
+	float: left;
+	margin: 5px;
 }
 
 #columnaAux #contenedor_columnaAux #contentP{
@@ -65,6 +131,22 @@
 	float: left;
 }
 
+#columnaAux #contenedor_columnaAux #comentarios #listaC{
+	margin-top: 5px;
+}
+
+
+#columnaAux #contenedor_columnaAux #comentarios #listaC a{
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+	margin-top: 10px;
+}
+
+#columnaAux #contenedor_columnaAux #comentarios #listaC a:hover{
+	text-decoration: underline;
+}
+
 	/* Formulario Comentario Nuevo */
 #columnaAux #contenedor_columnaAux #comentarios #formularioComentario{
 	float: left;
@@ -89,4 +171,99 @@
 #columnaAux #contenedor_columnaAux #comentarios #formularioComentario form textarea{
 	resize: none;
 }
-	/* FIN - Formulario Comentario Nuevo */
+/* FIN - Formulario Comentario Nuevo */
+
+/* Noticias Relacionadas */
+#noticiasRelacionadas{
+	float: left;
+	width: 100%;
+	margin: 10px;
+	background-color: #DDDDDD;
+	padding: 5px;
+}
+
+#noticiasRelacionadas article{
+	float: left;
+	margin:3px;
+}
+
+#noticiasRelacionadas article a{
+	text-decoration: none;
+	color: inherit;
+}
+
+#noticiasRelacionadas article:hover{
+	text-decoration:underline;
+}
+
+
+/* Columna aux cuando esta un administrador */
+#columnaAux #contenido_columnaAux p#tituloGestion{
+	float: left;
+	font-size: 15px;
+	font-weight: bold;
+	margin: 6px 1px 6px 1px;
+	padding: 0px 5px 0px 5px;
+	border-bottom: 2px dashed black;
+}
+
+#columnaAux #contenido_columnaAux #menuGestion{
+	float: left;
+	list-style: circle;
+	margin: 2px;
+}
+
+#columnaAux #contenido_columnaAux #menuGestion a{
+	text-decoration: none;
+	color: black;
+}
+
+#columnaAux #contenido_columnaAux #menuGestion a:hover{
+	text-decoration: underline;
+}
+
+/*Modal para compartir en redes sociales*/
+.modal-contenido{
+  background-color:white;
+  width:45%;
+  padding: 20px 20px;
+  margin: 20% auto;
+  position: relative;
+}
+.modal-contenido img{
+	width: 40%;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.modal-contenido a{
+	text-decoration: none;
+	color: black;
+	float: right;
+	margin-bottom: 20px;
+}
+.modal-contenido p{
+	font-size: 15px;
+}
+.modal{
+  background-color: rgba(0,0,0,.8);
+  position:fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  opacity:0;
+  pointer-events:none;
+  transition: all 1s;
+}
+#miModalF:target{
+  opacity:1;
+  pointer-events:auto;
+}
+#miModalT:target{
+  opacity:1;
+  pointer-events:auto;
+}
+#miModalG:target{
+  opacity:1;
+  pointer-events:auto;
+}

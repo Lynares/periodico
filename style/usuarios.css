@@ -1,0 +1,54 @@
+section#usuarios{
+  float: left;
+  margin: 5px;
+}
+
+section#usuarios h2{
+  float: left;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+/* Inicio Sesion */
+#form_iniciarSesion {
+  float: left;
+}
+
+#form_iniciarSesion .campo{
+  float: left;
+  margin: 10px;
+  width: 100%;
+}
+
+#form_iniciarSesion input{
+  float: left;
+  vertical-align: middle;
+}
+
+#form_iniciarSesion #boton{
+  margin-left: 80px;
+}
+/* FIN - Inicio Sesion */
+
+/* Registro Usuarios */
+#usuarios table#registrarUsuario{
+  float: left;
+  clear: left;
+}
+
+#usuarios table#registrarUsuario th,td{
+  padding: 10px;
+  border: none;
+}
+
+#usuarios table#registrarUsuario label{
+  float: left;
+  font-weight: bold;
+  margin: 5px;
+}
+
+#usuarios table#registrarUsuario input{
+  float: left;
+  clear: left;
+}
+/* FIN - Registro Usuarios */

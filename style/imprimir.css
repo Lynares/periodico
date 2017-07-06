@@ -1,6 +1,6 @@
 /*Imprimir*/
 #cabeceraImprimir{
-	border: 2px solid #4682B4;
+	/*border: 2px solid #4682B4;*/
 	margin-top: 0.5em;
 	font-family: ubuntu , sans-serif ;
 	font-size: 3em;
@@ -8,7 +8,7 @@
 	margin-left: auto;
 	margin-right: auto;
 	background-color: white;
-	text-align: center;
+	/*text-align: center;*/
 }
 /*Configuracion enlaces de la cabecera*/
 #cabeceraImprimir a{
@@ -20,7 +20,7 @@
 	padding: 2px;
 	font-size: 15px;
 	font-family: serif;
-	font-style: oblique;
+	/*font-style: oblique;*/
 	width: 5%;
 	border-bottom: 1px solid #4682B4;
 }
@@ -38,9 +38,7 @@
 	padding: 5px;
 	font-size: 15px;
 }
-#subtituloImprimir p{
-	float:left;
-}
+
 
 /*#subtituloImprimir img{
 	float: right;
@@ -56,8 +54,8 @@
 #emisorImprimir{
 	padding: 5px;
 	font-size: 10px;
-	font-style: italic;
 	font-weight: bold;
+	float: left;
 }
 
 /*
@@ -76,19 +74,24 @@
 	width: 98%;
 }
 
-#textoNoticia {
-	margin-left: 2px;
-	float: left;
-	width: 98%;
-	font-size: 14px;
-}
-
-#textoNoticia img{
+#cuerpoNoticiaImprimir img{
 	float:right;
 	margin: 2px;
 	margin-left: 5px;
-	width: 35%;
+	width: 100%;
 }
+
+#textoNoticia {
+	margin-left: 2px;
+	margin-top: 10px; /*Para separarlo de la imagen*/
+	float: left;
+	width: 98%;
+	font-size: 14px;
+	column-count: 2; /*Separamos el texto en dos columnas*/
+	column-gap: 40px; /*Separacion entre columnas*/
+	text-align: justify; /*Texto justificado para mayor claridad*/
+}
+
 /********/
 
 #olistaImprimir{

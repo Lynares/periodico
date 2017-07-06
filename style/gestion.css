@@ -1,0 +1,93 @@
+#listaGestion{
+  float: left;
+  margin: 5px;
+  margin-left: 10px;
+}
+
+#listaGestion h2{
+  margin: 10px 0px 5px 5px;
+  padding-left: 10px;
+  border-bottom: 2px dashed blue;
+  border-bottom-style:outset;
+  border-radius: 5px;
+}
+
+#listaGestion #insertarGestion{
+  float: left;
+  margin: 5px;
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+  clear: right;
+}
+
+#listaGestion #insertarGestion:hover{
+  text-decoration: underline;
+}
+
+#listaGestion table{
+  float: left;
+  margin: 5px;
+  margin-top: 10px;
+  border: 1px solid black;
+  text-align: center;
+  border-collapse: collapse;
+  clear: left;
+}
+
+
+/* Tabla para la lista */
+#listaGestion table#tablaLista tr:first-of-type {
+  background-color: #1879cd;
+  color: white;
+}
+
+#listaGestion table#tablaLista tr.listaT0{
+  background-color: #add8ee;
+}
+
+#listaGestion table#tablaLista th,td{
+  padding: 10px;
+  border-top: 1.5px solid #1879cd;
+}
+
+#listaGestion table#tablaLista td img{
+  width: 20px;
+  height: 20px;
+}
+
+#listaGestion table#tablaLista td a{
+  text-decoration: none;
+}
+
+#listaGestion table#tablaLista td a.link:hover{
+  text-decoration: underline;
+}
+/* FIN - Tabla para la lista */
+
+/* Tabla insertar/modificar */
+#listaGestion table#nmGestion{
+  float: left;
+  clear: left;
+}
+
+#listaGestion table#nmGestion > th,td{
+  padding: 10px;
+  border: none;
+}
+
+#listaGestion table#nmGestion label{
+  float: left;
+  font-weight: bold;
+  margin: 5px;
+}
+
+#listaGestion table#nmGestion input{
+  float: left;
+  clear: left;
+}
+
+#listaGestion table#nmGestion textarea{
+  resize: none;
+}
+/* FIN - Tabla insertar/modificar */

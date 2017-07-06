@@ -1,38 +1,66 @@
 /*CSS noticia*/
 #seccion{
+	float: left;
 	padding: 2px;
 	font-size: 18px;
 	font-family: serif;
-	font-style: oblique;
-	width: 6%;
-	border-bottom: 2px solid #4682B4;
+	font-style: bold;
+	width: 100%;
 }
+
+#seccion #textSeccion{
+	padding: 0 8px 0 8px;
+	float: left;
+	border-bottom: 2px solid #4682B4;
+	border-radius: 5px;
+}
+
+#seccion #textSeccion a{
+	color: black;
+}
+
+#seccion a#editarNoticia{
+	float: right;
+	text-decoration: none;
+	color: black;
+	margin-right: 50px;
+}
+
+#seccion #editarNoticia:hover{
+	text-decoration: underline;
+}
+
 #titulo{
 	padding: 5px;
 	font-size: 24px;
 	font-weight: bold;
+	float: left;
+	clear: left;
 }
 #subtitulo{
 	padding: 5px;
 	font-size: 20px;
+	float: left;
+	clear: left;
 }
 #subtitulo p{
 	float:left;
 }
-/*#subtitulo img{
-	float: right;
-	width: 40%;
-	height: 60%;
-}*/
+
 #entradilla{
 	padding-top: 10px;
 	padding-bottom: 10px;
 	font-size: 15px;
+	float: left;
+	clear: left;
 }
 #emisor{
 	padding: 5px;
 	font-style: italic;
 	font-weight: bold;
+	float: left;
+	clear: left;
+	clear: right;
 }
 /*#cuerpoNoticia{
 	padding: 5px;

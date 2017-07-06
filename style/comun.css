@@ -17,6 +17,7 @@ body{
 
 /*configuracion de la cabecera*/
 #cabecera{
+	height: 50px;
 	border: 2px solid #4682B4;
 	margin-left: auto;
 	margin-right: auto;
@@ -33,47 +34,99 @@ body{
 	color: black;
 }
 
+#cabecera #sectionUsuarios{
+	float: right;
+	width: 200px;
+	height: 100%;
+	border-left: 2px #4682B4 dashed;
+	font-size: 15px;
+}
+
+#cabecera #sectionUsuarios article{
+	margin: 5px;
+}
+
+#cabecera #sectionUsuarios article a:hover{
+	margin: 5px;
+	text-decoration: underline;
+}
+
+	/* Quita los cuadros de los botones de los formularios */
+.formA input{
+	background-color: inherit;
+	border: none;
+	color: black;
+}
+
+.formA input:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+/* FIN #cabecera*/
+
 /*configuracion del menu de secciones*/
 #menu{
 	height: 30px;
-	border: 2px solid black; /*#4169E1;*/
-	background: black; /*#4682B4;*/
+	background: black;
 	margin-top: 5px;
 	margin-bottom: 5px;
 	text-align: center;
 }
-/*Configuracion lista del menu de secciones*/
-#menu li{
-	display: inline-block;
-	list-style: none;
-	margin: 2px;
-	padding: 5px;
+
+/* Configuracion del menu y submenu */
+ul{
+  list-style: none;
 }
-/*Configuracion enlaces del menu de secciones*/
-#menu a{
-	color: white;
-	text-decoration: none;
+#menu #menu2{
+	margin-left: 200px;
 }
-/*Configuracion comportamiento de los enlaces del menu de secciones cuando se le pasa el raton por encima*/
-#menu a:hover{
+#menu2 li>a{
+  color: white;
+  padding: 6.5px;
+  display: block;
+  text-decoration: none;
+  min-width: 80px;
+}
+#menu2 li>a:hover{
+	background-color: white;
+	color: black;
+}
+#menu2>li{
+  float: left;
+  text-align:center
+}
+#menu2>li>ul{
+	position: absolute;
+  display: none;
+}
+#menu2>li:hover>ul {
+  display:block;
 	color: white;
+	background-color: black;
 }
 
 /*Configuracion para las distintas secciones del menu de secciones*/
-#depo:hover{
+#a0:hover{
 	border-bottom: 3px solid #008000;
 }
 
-#econ:hover{
+#a1:hover{
 	border-bottom: 3px solid #B22222;
 }
 
-#poli:hover{
+#a2:hover{
 	border-bottom: 3px solid #DAA520;
 }
 
-#loca:hover{
+#a3:hover{
 	border-bottom: 3px solid #4169E1;
+}
+
+#menu #insertarNoticia{
+	border-left: 2px solid white;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 #cuerpo{
@@ -81,4 +134,8 @@ body{
 	width: 80%;
 	margin:auto;
 	/*border: 1px blue solid;*/ /*-----------*/
+}
+
+#oculto{
+	display: none;
 }

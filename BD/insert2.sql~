@@ -1,0 +1,116 @@
+/* ***** Noticia1 ***** */
+INSERT INTO noticia(titulo,	subtitulo, entradilla, fechaCreacion, fechaModificacion, foto, foto1, estado, seccion, autor, cuerpo) VALUES
+('El "Daily Telegraph" elige Granada como el 4º mejor destino del mundo en 2017',
+'Invitan a visitar la capital haciendo alusión a los jardines de la Alhambra y al encanto del Albaicín',
+'Los expertos en turismo del diario británico eligen a Granada por encima de otros destinos como Nueva Zelanda, Bermudas, ect.',
+'2017-03-12', '2017-04-05',
+'Granada.jpg', 'Granada2.jpg', 'Publicada', 1, NULL,
+'Los expertos del "Daily Telegraph" han elaborado una lista en la que incluyen los 20 mejores destinos del mundo para visitar en el año 2017 y ha escogido a la ciudad de Granada como el cuarto mejor lugar para viajar. Para argumentar su elección, hacen alusión a los jardines de la Alhambra y a los secretos que esconden los muros de la fortificación, así como las fuentes de azulejos, las pequeñas plazas, las flores que se enredan entre las fachadas del Albaicín o las tapas de sus numerosos bares. Para los autores de la lista de mejores destinos, Sierra Nevada y las Alpujarras son otros de los grandes atractivos de Granada, por la cercanía con la capital y por los paisajes que ofrecen los pueblos alpujarreños en el mes de mayo, cuando las laderas están cubiertas de flores. Además, el Daily Telegraph invita a sus lectores a viajar a Granada, ahora que EasyJet ha lanzado una nueva ruta que enlaza la ciudad de la Alhambra con Londres Gatwick tres veces en semana. Y para aprovechar el viaje, también recomiendan visitar Úbeda y Baeza, así como Fuente Vaqueros, la ciudad natal de Federico García Lorca'),
+
+/* ***** Noticia2 ***** */
+('Ramos: "Quisiera estar dos o tres temporadas en Europa y después regresar al América"',
+'El delantero colombiano dice que el Granada CF le parece un "club con muchas aspiraciones y una afición muy apasionada',
+'El delantero cafetero da pistas sobre que opina de su futuro, ante una carrera que ya mismo acaba.',
+'2017-02-10', '2017-02-10',
+'adrian-ramos.jpg', 'adrian-ramos2.jpg', 'Publicada', 5, 1,
+'El delantero del Granada CF Adrián Ramos se manifestó ayer muy claramente sobre su futuro en los micrófonos de Radio Blue de Colombia. “Quisiera estar dos o tres temporadas más en Europa y después poder volver al América de Cali. Si se diera la oportunidad de volver lo haría con muchas ganas y mucha ilusión, para competir y ganar títulos. Llegará el momento de regresar”, manifestó el profesional cuyos derechos pertenecen al Borussia Dortmund.
+
+En torno a su estancia en el Granada CF reflejó que se encuentra “bien, tranquilo”, “contento de poder jugar nuevamente” y entregado a la labor de “coger la mejor forma”. Que es algo que quiere consagrar con los objetivos grupales. “Estamos con muchas expectativas y por fortuna las cosas han ido mejorando. Sabíamos que estaban las cosas difíciles, y ahora que hay mucho trabajo por hacer. Sabemos ahora que hay una situación difícil pero estamos trabajando duro para poder seguir en Primera”.
+
+Del mismo modo, Ramos informó que el Granada es “un club que tiene nuevos dirigentes y muchas aspiraciones. Un equipo humilde con una gran afición, muy apasionada”. Y eso es algo que le agrada una vez que dio la sensación de estar en disposición de dar por cerrado su periplo en el Dortmund. “No estaba teniendo mucha continuidad en Alemania y por eso se tomó la decisión de coger un nuevo rumbo. Fue una bonita experiencia allí, creo que cumplí con el equipo, aunque se pudo haber hecho más”. '),
+
+/* ***** Noticia3 ***** */
+('El arzobispo de Granada acude hoy a la Audiencia como testigo en el "caso Romanones"',
+'También están citados los otros dos curas y el profesor de Religión que fueron detenidos junto al padre Román por los supuestos abusos sexuales a "Daniel"',
+'El juicio llega a su ecuador y declarará ante el juez el arzobispo de Granada.',
+'2017-03-10', '2017-03-10',
+'juicio.jpg', 'juicio2.jpg', 'Publicada', 1, NULL,
+'El arzobispo de Granada, Javier Martínez, comparecerá hoy como testigo en el juicio del caso Romanones, que ha llegado a su ecuador. El prelado está citado junto a otras once personas, entre las que figuran los otros dos curas y el profesor de Religión que fueron detenidos en noviembre de 2014 junto al acusado tras la denuncia de "Daniel" (nombre ficticio).
+
+Según las fuentes consultadas, la sesión de hoy -la quinta de las nueve previstas- arrancará con el testimonio que faltó ayer, si finalmente el segundo denunciante del caso en sus inicios, el joven J.H.T., ha podido ser localizado. También está previsto el interrogatorio de la exnovia del denunciante y que comparezcan los investigadores policiales del SAF.
+
+Se da la circunstancia de que el Arzobispado de Granada está acusado en la causa como responsable civil subsidiario, lo que significa que en caso de condena tendría que responder de la indemnización que se fijase. El fiscal pidió en sus conclusiones provisionales 50.000 euros para "Daniel", mientras que Prodeni, que ejerce la acusación popular, elevó la cifra a 75.000 euros. Las partes, no obstante, tienen la opción de modificar sus conclusiones cuando llegue el último día de la vista.
+
+El arzobispo aclarará, a través de sus respuestas, el papel que ha jugado en el caso Romanones y, previsiblemente, será preguntado también por la tramitación que tuvo el expediente canónico.
+
+El único acusado, el padre Román M.V.C., de 63 años, negó categóricamente el lunes haber cometido los supuestos abusos sexuales que le atribuye el joven, que tiene ahora 27 años. El religioso se enfrenta a penas de hasta 26 años de cárcel.'),
+
+/* ***** Noticia4 ***** */
+('Repsol descubre el mayor yacimiento de petróleo de los últimos 30 años en EE UU',
+'El hallazgo se encuentra en Alaska y proporcionará unos 1.200 millones de barriles de crudo ligero',
+'Repsol ha hallado en Alaska, tierra de buscadores de oro, el denominado "oro negro"',
+'2017-03-10', '2017-03-15',
+'repsol.jpg', 'repsol2.jpg', 'Publicada', 3, NULL,
+'Repsol, junto con su socio Armstrong Energy, ha realizado en Alaska el mayor descubrimiento de petróleo de los últimos 30 años en Estados Unidos. Los recursos identificados actualmente son de aproximadamente 1.200 millones de barriles recuperables de crudo ligero, según un comunicado de la empresa. El hallazgo, denominado Horseshoe, extiende en 32 kilómetros una formación descubierta en campañas de exploración previas, en la zona de Pikka. El plan de desarrollo preliminar de Pikka contempla que la producción se inicie a partir de 2021, con un potencial de alrededor de 120.000 barriles de petróleo al día. Los pozos Horseshoe-1 y Horseshoe-1A, perforados en la campaña invernal 2016-2017, confirman a la formación de Nanushuk como una de las de mayor potencial de la prolífica zona del North Slope de Alaska.
+
+Repsol lleva explorando activamente en Alaska desde el año 2008 y, desde 2011 la compañía ha realizado múltiples descubrimientos en la zona de North Slope, junto con su socio Armstrong. Repsol cuenta con una participación del 25% en Horseshoe y del 49% en Pikka. Armstrong dispone del porcentaje restante y es actualmente el operador.
+
+Antes del descubrimiento en Horseshoe, Repsol realizó como operador 13 pozos de exploración y delineamiento en North Slope, que permitieron hallar diversos reservorios en la formación de Nanushuk, en la zona de Pikka.
+
+El descubrimiento de Horseshoe extiende la formación de Nanushuk en más de 32 kilómetros con respecto a los hallazgos realizados hasta el momento en Pikka, por Repsol y Armstrong en 2014 y 2015, y cuyas licencias de desarrollo se están tramitando. Está previsto que un porcentaje significativo de los recursos identificados se reclasifiquen como reservas probadas y probables una vez obtenidas las licencias administrativas del proyecto Nanushuk.'),
+
+/* ***** Noticia5 ***** */
+('Cuenca volverá a exigir a Fomento que el AVE llegue cuanto antes a Granada',
+'El alcalde ha hecho estas declaraciones al ser preguntado por la manifestación del próximo domingo de las plataformas "Marea Amarilla" y "Granada en marcha" contra el aislamiento ferroviario',
+'El alcalde de Granada, insiste en que el AVE llegue cuanto antes, mientras los ciudadanos de la zona exigen el soterramiento.',
+'2017-01-20', '2017-02-15',
+'ave.jpg', 'ave2.jpg', 'Publicada', 4, 2,
+'El alcalde de Granada, Francisco Cuenca (PSOE), ha asegurado que volverá a exigir al Ministerio de Fomento que cumplan con esta ciudad andaluza, al igual que se ha hecho en el caso de Bilbao, y que el AVE pueda llegar "cuanto antes" y además con un compromiso de soterramiento en el barrio de La Chana.
+
+El regidor ha hecho estas declaraciones al ser preguntado por la manifestación del próximo domingo de las plataformas "Marea Amarilla" y "Granada en marcha" contra el aislamiento ferroviario y ante la convocatoria el martes siguiente de la comisión de seguimiento de las obras del AVE.
+
+Cuenca, que no ha aclarado si asistirá o no a la protesta del próximo día 12 de marzo, ha recordado que defiende "desde el primer día" que Granada cuente con AVE "lo antes posible", algo que también ha canalizado a través de la denominada "Mesa del Ferrocarril".
+
+Ha insistido en que, al margen de esa manifestación, volverá a defender ante los máximos representantes del Ministerio los intereses de la ciudad para que el AVE llegue "lo antes posible" y exista un compromiso de soterramiento de sus vías en su entrada a Granada a través del barrio de La Chana.'),
+
+/* ***** Noticia6 ***** */
+('Un ascenso desde el perímetro',
+'El granadino Manu Rodríguez alcanza la madurez de su juego en el Oviedo de LEB Oro',
+'El granadino destaca en LEB Oro en Asturias.',
+'2017-01-06', '2017-02-06',
+'manu-rodriguez.jpg', 'manu-rodriguez2.jpg', 'Publicada', 6, NULL,
+'Definitivamente, el que está protagonizando el granadino Manu Rodríguez es un ascenso desde el perímetro. Desde el contorno de la línea de seis setenta y cinco metros, y el seno del Principado de Asturias, en una temporada en la que no sólo está gozando de éxitos a nivel colectivo sino que también de una progresión individual que «quiero creer que me está haciendo vivir uno de los mejores años de mi carrera».
+
+Tras tres temporadas en el Amigos del Baloncesto de Castellón, el escolta se comprometió en julio pasado por una campaña con el Unión Financiera Baloncesto Oviedo, conjunto que ingresó en la LEB Oro en 2013. Y eso no sólo le supuso ganar la Copa Princesa en el mes de enero -«algo que nadie se esperaba»-, sino que también poder aspirar a subir a la Liga Endesa a últimos de abril o en el transcurso de mayo. Y todo, por la vía de estar sintiéndose «importante».
+
+Se trata del cuarto efectivo más empleado por el técnico barcelonés Carles Marco Viñas, con dígitos que lo referencian como jugador de equipo -casi nueve puntos por partido- y sensaciones de que «he crecido» en la faceta defensiva. En suma cree que está «dando un paso más» en una trayectoria que apuntaba hasta la gloria cuando alcanzó la condición de internacional en categorías cadete y júnior.
+
+Manu Rodríguez se muestra «muy contento» de que «todo esté yendo muy bien» en un club «muy familiar» pero con «gente trabajadora» que «te da lo que puede». Incluso, admite que «nos está sorprendiendo a todos» el desarrollo de una temporada en la que «comenzamos con la idea de hacer un buen papel», pero en la que incluso «llegamos a acabar la primera vuelta en la primera plaza», lo que dio origen a que «jugáramos en casa la Copa y la acabáramos ganando» tras una final apretada ante San Pablo Inmobiliaria Burgos (80-77).
+
+Así, Manu Rodríguez pudo sentir que «había llegado a lo más alto de mi carrera», a un momento «cumbre» que ahora está por ver si tiene prolongación antes del verano. Y es que a falta sólo de ocho jornadas para la conclusión del campeonato regular, Oviedo se encuentra en la segunda plaza con 17 triunfos. Y el hecho de que «estemos muy fuertes en casa» hace posible que pueda acabar festejando el ascenso a la máxima categoría: un derecho adquirido por el primer clasificado -ahora, el Retabet con 18 victorias- y el vencedor resultante del "play off" que disputarán del segundo al noveno.
+
+«Desde el inicio de Liga los equipos se han reforzado y mejorado. Y aunque para nosotros no sea el objetivo, vamos a apretar por ascender. Es un reto poder hacerlo porque se ha creado una ilusión y una gran expectativa en Oviedo», dice Rodríguez con la creencia de que en el supuesto de que fuese así el club al que pertenece «podría» responder a las exigencias económicas de la ACB - «nos apoyan muchas empresas chicas» - aunque «quizás tuviera un problema» con la cancha de juego.
+
+El pabellón del Polideportivo Municipal El Pumarín logra generar un «ambiente espectacular» pero no pasa de tener capacidad para 1.500 espectadores cuando el requisito es de 5.000, lo que supone un handicap a tener en cuenta porque el complejo «está rodeado de casas» y eso evidentemente dificultaría su ampliación. A la espera de la transformación que pudiese experimentar si fuese necesario, se ha convertido en el escenario en el que el granadino ha refrendado que se encuentra «en una trayectoria ascendente» tras compartir parte del protagonismo.
+
+«En la plantilla hay gente como Johan -Jerker- y Víctor -Pérez- con mucho talento en el exterior, que es una faceta en la que yo he destacado siempre. Pero eso es bueno para el equipo. Además, yo también vine con la idea de apoyar en el plano defensivo», recalca quien quiere «mejorar en todos los aspectos, no sólo en uno». Quien incluso encuentra la lógica a que, sin embargo, su trayectoria no esté siendo tan prometedora como apuntaba en los inicios.
+
+«La carrera deportiva de un jugador es algo que está rodeada de circunstancias muy diversas. Hay muchos ejemplos de jugadores que de pequeños parece que se van a salir y luego de grandes no lo hacen. O al contrario. En mi caso, las cosas se dieron como se dieron. He ido mejorando en lo personal y estoy contento, pues me encuentro en buen puerto», señala Manu Rodríguez con una pretensión en el horizonte.
+
+«Volver a jugar en la Liga Endesa sería algo bonito. Ya llegué a debutar en ella con el "Cebé". Y eso es algo que se vive aunque no disfruté de minutos importantes. Pero bueno -concluye- si llega la ocasión ya se verá. Lo importante es seguir disfrutando y creciendo todo lo posible». '),
+
+/* ***** Noticia7 ***** */
+('El granadino Josito Aragón, fuera de la final de slopestyle',
+'Tras debutar en unos Mundiales con 16 años, acabó en el puesto quincuagésimo cuarto',
+'El granadino destaca en los mundiales de Sierra Nevada de este año 2017.',
+'2016-01-06', '2017-02-06',
+'snow.jpg', 'snow2.jpg', 'Publicada', 7, NULL,
+'El granadino José Antonio Aragón, único español participante, no pudo clasificarse para la final de slopestyle de snowboard del sábado de los Mundiales de Sierra Nevada 2017, al quedar eliminado en la calificación, disputada este jueves en el Snowpark Sulayr.
+
+Josito, que debuta en unos Mundiales con 16 años y cuya especialidad es la disciplina de Big Air, acabó en el puesto quincuagésimo cuarto y no entró en la final del sábado, reservada a los mejores dieciséis.'),
+
+/* ***** Noticia8 ***** */
+('Muere una persona en un tiroteo a plena luz del día en Sánchez Cotán',
+'Las primeras hipótesis con las que trabaja la Policía Nacional vinculan el suceso con un posible ajuste de cuentas',
+'Continua la racha de violencia en la periferia de Granada.',
+'2016-10-20', '2017-01-06',
+'policia.jpg', 'policia2.jpg', 'Publicada', 1, NULL, 
+'Esta mañana se ha producido un tiroteo en la Zona Norte de Granada, en la calle Fray Juan Sánchez Cotán, con una persona fallecida, un joven marroquí que cumplía 22 años mañana. Los hechos se han producido sobre las doce del mediodía en el número 45 de la citada calle. Efectivos de la Policía Local y la Policía Nacional han acordonado la zona en la que se han producido los hechos.
+
+Además, se ha evacuado a otra persona de 24 años, hermano del fallecido, que estaría herido de gravedad. Y, al menos, hay un herido leve más, según informaron fuentes policiales.
+
+En la zona del suceso se congregaron multitud de vecinos que mostraron su indignación por la inseguridad que está azotando al barrio en las últimas semanas.
+
+Las primeras hipótesis con las que trabaja la Policía Nacional vinculan el suceso con un posible ajuste de cuentas que no estaría relacionado en principio con los dos homicidios que han tenido lugar en los dos últimos meses en el barrio.
+
+El suceso no estaría vinculado, por tanto, a la muerte violenta de una mujer al recibir un balazo hace dos meses y a la causada por el disparo en la cabeza a un varón hace casi dos semanas en esta misma zona de la capital granadina.');
